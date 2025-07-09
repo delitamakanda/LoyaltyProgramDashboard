@@ -1,9 +1,16 @@
 import axios from 'axios';
 
+const baseURL = import.meta.env.VITE_API_URL || '';
+const token = localStorage.getItem('token') || '';
+
+if (!import.meta.env.VITE_API_URL) {
+    console.warn('VITE_API_URL environment variable is not set. Defaulting to relative URLs.');
+}
+
 const api = axios.create({
-    baseURL: 'https://api.example.com/v1',
+    baseURL,
     headers: {
-        'Authorization': 'Bearer YOUR_API_TOKEN',
+        ...(token ? { 'Authorization': `Bearer ${token}` } : {}),
         'Content-Type': 'application/json',
     },
 });

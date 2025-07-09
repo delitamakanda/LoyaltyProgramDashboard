@@ -102,6 +102,18 @@ export default tseslint.config([
 ])
 ```
 
+## Environment Variables
+
+The API client requires the following environment variables:
+
+```
+VITE_API_URL=<your API base URL>
+```
+
+Create a `.env` file in the project root and populate these values. When not
+defined, the application falls back to relative URLs and will send requests
+without an authorization header.
+
 ## Running Tests
 
 To execute unit tests, run:
