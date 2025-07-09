@@ -68,6 +68,19 @@ export default tseslint.config([
 ])
 ```
 
+## Environment Variables
+
+The API client requires the following environment variables:
+
+```
+VITE_API_URL=<your API base URL>
+VITE_API_TOKEN=<authentication token>
+```
+
+Create a `.env` file in the project root and populate these values. When not
+defined, the application falls back to relative URLs and will send requests
+without an authorization header.
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
