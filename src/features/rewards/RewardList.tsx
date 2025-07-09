@@ -5,5 +5,4 @@ export function RewardList() {
         </div>
     )
 }
-
 export default RewardList;

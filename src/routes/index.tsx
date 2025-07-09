@@ -20,11 +20,10 @@ const routes = [
     ...AuthRoutes,
     {
         path: "*",
-        component: <NotFound />
+        element: <NotFound />
     }
     // Add more routes as needed...
 ]
 
 const router = createBrowserRouter(routes);
-
 export default router;
