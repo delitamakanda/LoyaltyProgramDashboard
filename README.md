@@ -68,6 +68,14 @@ export default tseslint.config([
 ])
 ```
 
+## Running Tests
+
+To execute unit tests, run:
+
+```bash
+npm test
+```
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
