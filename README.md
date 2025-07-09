@@ -1,5 +1,7 @@
 # Loyalty Program Dashboard
 
+[![Loyalty Program CI](https://github.com/delitamakanda/LoyaltyProgramDashboard/actions/workflows/node.js.yml/badge.svg?branch=main&event=push)](https://github.com/delitamakanda/LoyaltyProgramDashboard/actions/workflows/node.js.yml)
+
 This project is a React and TypeScript application built with [Vite](https://vitejs.dev/). It provides a dashboard interface for managing a loyalty program where users, rewards and transactions can be viewed or edited. The repository started from the Vite template and includes ESLint and other development tooling out of the box.
 
 ## Installation
