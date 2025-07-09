@@ -1,11 +1,45 @@
-# React + TypeScript + Vite
+# Loyalty Program Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React and TypeScript application built with [Vite](https://vitejs.dev/). It provides a dashboard interface for managing a loyalty program where users, rewards and transactions can be viewed or edited. The repository started from the Vite template and includes ESLint and other development tooling out of the box.
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+2. Start a development server with hot reload:
+
+   ```bash
+   npm run dev
+   ```
+
+3. Create a production build:
+
+   ```bash
+   npm run build
+   ```
+
+4. Preview the production build locally:
+
+   ```bash
+   npm run preview
+   ```
+
+## Project Structure
+
+The application code lives in the `src` directory:
+
+- **assets** – static files bundled by Vite.
+- **components** – reusable UI components.
+- **features** – page level components for clients, rewards and transactions.
+- **layouts** – layout wrappers used by the router.
+- **routes** – route definitions used by React Router.
+- **services** – small modules for API calls and helper utilities.
+
+Static files placed in `public` are served at the root during development and copied to the build output.
 
 ## Expanding the ESLint configuration
 
