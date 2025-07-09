@@ -11,5 +11,4 @@ const TransactionRoutes = [
         ]
     }
 ]
-
 export default TransactionRoutes;
