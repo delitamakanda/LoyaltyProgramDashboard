@@ -5,6 +5,7 @@ import {
     IconInnerShadowTop,
     IconReport,
     IconUsers,
+    IconShoppingCart,
 } from "@tabler/icons-react"
 
 import {
@@ -21,6 +22,7 @@ import { NavMain } from "./NavMain"
 import { NavUser } from "./NavUser"
 import { NavSecondary } from "./NavSecondary"
 import * as React from "react";
+import { useTranslation } from "react-i18next";
 
 const data = {
     user: {
@@ -49,6 +51,11 @@ const data = {
            label: "Transactions",
            icon: IconFileWord,
            href: "/dashboard/transactions",
+        },
+        {
+            label: "Shops",
+            icon: IconShoppingCart,
+            href: "dashboard/shops",
         }
     ],
     secondaryNavItems: [
@@ -61,6 +68,7 @@ const data = {
 }
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
+    const { t } = useTranslation()
     return (
         <Sidebar collapsible="offcanvas" {...props}>
             <SidebarHeader>
@@ -69,7 +77,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
                         <SidebarMenuButton asChild className="data-[slot=sidebar-menu-button]:!p-1.5">
                             <a href="#">
                                 <IconInnerShadowTop className="!size-5" />
-                                <span className="text-base font-semibold">Loyalty Program.</span>
+                                <span className="text-base font-semibold">{ t("name")}</span>
                             </a>
                         </SidebarMenuButton>
                     </SidebarMenuItem>
