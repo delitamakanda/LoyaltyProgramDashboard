@@ -55,7 +55,7 @@ const data = {
         {
             label: "Shops",
             icon: IconShoppingCart,
-            href: "dashboard/shops",
+            href: "/dashboard/shops",
         }
     ],
     secondaryNavItems: [
