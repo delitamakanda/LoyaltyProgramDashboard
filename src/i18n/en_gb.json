@@ -1,4 +1,70 @@
 {
   "name": "Loyalty Program.",
-  "dashboard": "Dashboard"
+  "dashboard": "Dashboard",
+  "navUser": {
+    "logout": "Logout"
+  },
+  "home": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "login": "Login"
+  },
+  "hero": {
+    "title": "Grow Your Business with Our Loyalty Program",
+    "subtitle": "Boost customer engagement and increase retention with our easy-to-use platform.",
+    "action": "Get Started"
+  },
+  "features": {
+    "title": "Why Choose Our Platform?",
+    "feature1": "Easy Integration",
+    "feature2": "Seamlessly integrate with your existing systems in minutes.",
+    "feature3": "Customizable Rewards",
+    "feature4": "Tailor rewards to match your brand and audience.",
+    "feature5": "Track customer behavior and program performance live.",
+    "feature6": "Get expert help from our team whenever you need it.",
+    "feature7": "Real-Time Analytics",
+    "feature8": "Dedicated Support"
+  },
+  "footer": "All rights reserved.",
+  "pricing": {
+    "title": "Simple, Transparent Pricing",
+    "starter": {
+      "title": "Starter",
+      "subtitle": "Best for trying the basics",
+      "option1": "Up to 100 customers",
+      "option2": "1 Store",
+      "option3": "Email Support"
+    },
+    "pro": {
+      "title": "Pro",
+      "subtitle": "For growing businesses",
+      "option1": "Up to 1000 customers",
+      "option2": "Unlimited Stores",
+      "option3": "Chat Support",
+      "option4": "Custom Rewards",
+      "option5": "Start Free Trial"
+    },
+    "custom": {
+      "title": "Enterprise",
+      "price": "Custom",
+      "subtitle": "Tailored for large-scale needs",
+      "option1": "Unlimited customers",
+      "option2": "Dedicated Account Manager",
+      "option3": "API Access",
+      "option4": "SLA Guarantee",
+      "option5": "Contact Us"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "question1": "Is the loyalty program compatible with all POS systems?",
+    "answer1": "Yes, our platform is designed to integrate easily with most major POS systems via APIs.",
+    "question2": "Can I customize the rewards my customers get?",
+    "answer2": "Absolutely. You have full control to define and manage your reward tiers and criteria.",
+    "question3": "Do I need technical knowledge to set it up?",
+    "answer3": "Not at all. Our onboarding process is guided, and our support team is always here to assist.",
+    "question4": "Is support included in all plans?",
+    "answer4": "Yes, all plans include access to our dedicated customer support team."
+  }
 }

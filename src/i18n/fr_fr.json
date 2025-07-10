@@ -1,4 +1,70 @@
 {
   "name": "Loyalty Program.",
-  "dashboard": "Tableau de bord"
+  "dashboard": "Tableau de bord",
+  "navUser": {
+    "logout": "Déconnexion"
+  },
+  "home": {
+    "features": "Fonctionnalités",
+    "pricing": "Prix",
+    "faq": "FAQ",
+    "login": "Connexion"
+  },
+  "hero": {
+    "title": "Augmentez votre entreprise avec notre programme de fidélité",
+    "subtitle":"Boostez l'engagement client et augmentez la rétention avec notre plateforme simple d'utilisation.",
+    "action": "Découvrez maintenant"
+  },
+  "features": {
+    "title": "Pourquoi choisir notre plateforme?",
+    "feature1": "Intégration facile et intuitive",
+    "feature2": "Intégrez-vous de manière transparente à vos systèmes existants en quelques minutes.",
+    "feature3": "Récompenses personnalisées",
+    "feature4": "Adaptez les récompenses à votre marque et à votre public.",
+    "feature5": "Suivez le comportement des clients et les performances du programme en direct.",
+    "feature6": "Obtenez l’aide d’experts de notre équipe chaque fois que vous en avez besoin.",
+    "feature7": "Analyse en temps réel",
+    "feature8": "Support dédié"
+  },
+  "footer": "Tous droits réservés.",
+  "pricing": {
+    "title": "Tarification simple et transparente",
+    "starter": {
+      "title": "Starter",
+      "subtitle": "Idéal pour essayer les bases",
+      "option1": "Jusqu'à 100 clients",
+      "option2": "1 Boutique",
+      "option3": "Support email"
+    },
+    "pro": {
+      "title": "Pro",
+      "subtitle": "Pour les entreprises en croissance",
+      "option1": "Jusqu'à 1000 clients",
+      "option2": "Boutiques illimitées",
+      "option3": "Support en ligne",
+      "option4": "Récompenses personnalisées",
+      "option5": "Démarrer une nouvelle expérience gratuite"
+    },
+    "custom": {
+      "title": "Entreprise",
+      "price": "Personalisé",
+      "subtitle": "Adapté aux besoins à grande échelle\n",
+      "option1": "Clients illimités",
+      "option2": "Gestionnaire de compte dédié",
+      "option3": "Acces à l'API",
+      "option4": "Guarantie de service à la livraison",
+      "option5": "Contacter nous"
+    }
+  },
+  "faq": {
+    "title": "Foire aux questions fréquentes",
+    "question1": "Le programme de fidélité est-il compatible avec tous les systèmes de point de vente ?",
+    "answer1": "Oui, notre plateforme est conçue pour s'intégrer facilement à la plupart des principaux systèmes de point de vente via des API.",
+    "question2": "Puis-je personnaliser les récompenses que reçoivent mes clients ?",
+    "answer2": "Absolument. Vous avez le contrôle total pour définir et gérer vos niveaux et critères de récompense.",
+    "question3": "Ai-je besoin de connaissances techniques pour le configurer ?",
+    "answer3": "Absolument pas. Notre processus d'intégration est guidé et notre équipe d'assistance est toujours là pour vous aider.",
+    "question4": "L'assistance est-elle incluse dans tous les plans ?\n",
+    "answer4": "Oui, tous les plans incluent l’accès à notre équipe de support client dédiée."
+  }
 }
