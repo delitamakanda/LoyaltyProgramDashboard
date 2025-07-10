@@ -26,9 +26,18 @@ import {
     SidebarMenuItem,
     useSidebar,
 } from "@/components/ui/sidebar"
+import {useTranslation} from "react-i18next";
 
-export const NavUser = ({ user } : { user: any}) => {
+interface User {
+    first_name: string;
+    last_name: string;
+    email: string;
+    avatar: string;
+}
+
+export const NavUser = ({ user } : { user: User}) => {
     const { isMobile } = useSidebar()
+    const { t } = useTranslation()
     return (
         <SidebarMenu>
             <SidebarMenuItem>
@@ -75,7 +84,7 @@ export const NavUser = ({ user } : { user: any}) => {
                         <DropdownMenuSeparator />
                         <DropdownMenuItem>
                             <IconLogout />
-                            Log out
+                            {t('navUser.logout')}
                         </DropdownMenuItem>
                     </DropdownMenuContent>
                 </DropdownMenu>
